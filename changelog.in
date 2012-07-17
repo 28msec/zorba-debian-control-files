@@ -1,0 +1,5 @@
+@PACKAGE_NAME@ (@PACKAGE_VERSION@) unstable; urgency=low
+
+  @PACKAGE_CHANGES@
+
+ -- @PACKAGE_CONTACT@  @DATE_TIME@
