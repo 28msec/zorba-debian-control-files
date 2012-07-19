@@ -13,7 +13,7 @@ builddir/Makefile:
 	dh_testdir
 	# Add here commands to configure the package.
 	mkdir -p builddir
-	cd builddir && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_C_FLAGS="$(CFLAGS)" -DCMAKE_LD_FLAGS="-Wl,-z,defs" -DCMAKE_CXX_FLAGS="$(CXXFLAGS)" -DCMAKE_SKIP_RPATH=ON -DZORBA_PACKAGE_EXTERNAL_JARS=ON -DCMAKE_VERBOSE_MAKEFILE=ON
+	cd builddir && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_C_FLAGS="$(CFLAGS)" -DCMAKE_LD_FLAGS="-Wl,-z,defs" -DCMAKE_CXX_FLAGS="$(CXXFLAGS)" -DCMAKE_SKIP_RPATH=@CMAKE_SKIP_RPATH@ -DZORBA_PACKAGE_EXTERNAL_JARS=ON -DCMAKE_VERBOSE_MAKEFILE=ON @CMAKE_EXTRA_PARAMETERS@
 
 
 build: build-stamp
@@ -23,7 +23,7 @@ build-stamp:  builddir/Makefile
 
 	# Add here commands to compile the package.
 	$(MAKE) -C builddir
-	$(MAKE) doc
+	@EXTRA_INSTALL_COMMANDS@
 	#docbook-to-man debian/zorba.sgml > zorba.1
 
 	touch $@
@@ -47,8 +47,9 @@ install: build
 
 	# Add here commands to install the package into debian/zorba.
 	$(MAKE) -C builddir DESTDIR=$(CURDIR)/debian/@PACKAGE_NAME@ install
+	@EXTRA_INSTALL_COMMANDS@
 	#$(MAKE) doc
-
+			
 # Build architecture-independent files here.
 binary-indep: install
 # We have nothing to do by default.
