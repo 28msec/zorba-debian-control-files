@@ -1,0 +1,17 @@
+Source: zorba-data-formatting-module
+Section: devel
+Priority: extra
+Maintainer: Juan Zacarias <juan457@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, openjdk-6-jdk, fop, zorba-util-jvm-module
+Standards-Version: 3.9.1
+Homepage: http://www.zorba-xquery.com
+#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
+
+Package: zorba-data-formatting-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, openjdk-6-jdk, fop, zorba-util-jvm-module
+Description: a general purpose XQuery processor
+ This module uses Apache-FOP to generate content from a xsl-fo. Apache-FOP
+ supports several output formats. See the Apache FOP documentation for further
+ information.

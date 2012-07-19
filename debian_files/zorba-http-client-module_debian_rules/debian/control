@@ -1,0 +1,23 @@
+Source: zorba-http-client-module
+Section: devel
+Priority: extra
+Maintainer: Juan Zacarias <juan457@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, zorba-html-module
+Standards-Version: 3.9.1
+Homepage: http://www.zorba-xquery.com
+#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
+
+Package: zorba-http-client-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, zorba-html-module
+Description: a general purpose XQuery processor
+ This module provides an implementation of the EXPath Http Client. It provides
+ functions for making HTTP requests and is a superset of the module specified
+ by EXPath. Specifically, it implements the http:send-request() functions as
+ specified by EXPath. Moreover, it adds an additional function http:read()
+ (with several arities for the sake of ease).
+ .
+ In general, both functions take a description of the HTTP request to make as
+ parameter, execute the request, and return a representation of the HTTP
+ response.

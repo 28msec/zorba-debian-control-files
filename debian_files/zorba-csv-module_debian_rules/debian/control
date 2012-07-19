@@ -1,0 +1,17 @@
+Source: zorba-csv-module
+Section: devel
+Priority: extra
+Maintainer: Juan Zacarias <juan457@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba
+Standards-Version: 3.9.1
+Homepage: http://www.zorba-xquery.com
+#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
+
+Package: zorba-csv-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba
+Description: a general purpose XQuery processor
+ Function library providing converters from CSV/TXT to XML and back. The
+ functions are optimized to work with large amounts of data, in a streaming
+ way.

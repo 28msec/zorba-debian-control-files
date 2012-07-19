@@ -1,0 +1,31 @@
+Source: zorba-graphviz-module
+Section: devel
+Priority: extra
+Maintainer: Juan Zacarias <juan457@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libgraphviz-dev
+Standards-Version: 3.9.1
+Homepage: http://www.zorba-xquery.com
+#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
+
+Package: zorba-graphviz-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, graphviz
+Description: a general purpose XQuery processor
+ Module that provides functions for generating SVG graphs.
+ .
+ The module provides two function for generating graphs given in the :
+ .
+ * DOT language (see http://www.graphviz.org)
+ * or in the XML-based Graph eXchange Language 
+ (see http://www.gupro.de/GXL/), respectively.
+ .
+ Both functions use the Graphviz Visualization Library in order to layout and
+ render the graphs. As a result, both return a sequence of (document)-nodes
+ (one for each input graph). These nodes are instances of the Scalable Vector
+ Graphics (SVG) format. SVG is a language for describing two-dimensional
+ graphics and graphical applications in XML. More information about SVG can be
+ found at http://www.w3.org/Graphics/SVG/. As second parameters, both functions
+ take a sequence of strings that are parameters for the graph generation and
+ rendering algorithms. Currently, only the empty-sequence is allowed here.
+ These parameters exist for future use.
