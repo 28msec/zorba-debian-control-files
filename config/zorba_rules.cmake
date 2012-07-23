@@ -6,7 +6,8 @@ SET(CONFIG_PACKAGE_NAME "zorba")
 SET(CONFIG_PACKAGE_VERSION "2.5.0")
 
 #set make doc command for install
-SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) doc")
+SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) doc
+	$(MAKE) xqjdocs")
 
 #SET(RULES_CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 

@@ -22,4 +22,3 @@ SET(CONFIG_DESCRIPTION
  tidy it in order to result in valid XHTML, and return this XHTML document as a
  document-node. "
 )
-
