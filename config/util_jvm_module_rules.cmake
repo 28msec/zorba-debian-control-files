@@ -9,6 +9,8 @@ SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-6-jdk")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, openjdk-6-jdk")
 
+SET(CONFIG_CMAKE_RPATH_OFF ON)
+
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
 #SET(CHANGELOG_FILE "ChangeLog")
