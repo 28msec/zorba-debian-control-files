@@ -10,6 +10,8 @@ SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
 
+SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DZORBA_SUPPRESS_HTTP-CLIENT_FIND_PACKAGE=ON -DZORBA_SUPPRESS_SECURITY_FIND_PACKAGE=ON")
+
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
 #SET(CHANGELOG_FILE "ChangeLog")

@@ -7,9 +7,9 @@ SET(CONFIG_PACKAGE_VERSION "2.5.0")
 
 #set make doc command for install
 SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) doc
-	$(MAKE) xqjdocs")
+	$(MAKE) doc/xqj")
 
-#SET(RULES_CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
+SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DZORBA_WITH_THESAURUS=ON")
 
 #Set the dependencies
 SET(CONFIG_SOURCE_DEPENDENCIES "libxml2-dev, libicu-dev, libxerces-c-dev (>=2.8.0), libcurl4-openssl-dev, openjdk-6-jdk, swig")
