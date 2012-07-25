@@ -23,8 +23,8 @@ build-stamp:  builddir/Makefile
 
 	# Add here commands to compile the package.
 	$(MAKE) -C builddir
-	$(MAKE) doc
-	$(MAKE) doc/xqj
+	$(MAKE) -C builddir doc
+	$(MAKE) -C builddir xqjdocs
 	#docbook-to-man debian/zorba.sgml > zorba.1
 
 	touch $@
@@ -48,8 +48,8 @@ install: build
 
 	# Add here commands to install the package into debian/zorba.
 	$(MAKE) -C builddir DESTDIR=$(CURDIR)/debian/zorba install
-	$(MAKE) doc
-	$(MAKE) doc/xqj
+	$(MAKE) -C builddir doc
+	$(MAKE) -C builddir xqjdocs
 	#$(MAKE) doc
 			
 # Build architecture-independent files here.
