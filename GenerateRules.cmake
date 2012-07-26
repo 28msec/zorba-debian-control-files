@@ -18,7 +18,8 @@ FIND_PROGRAM(bzr bzr DOC "bazaar command line client")
 
 #check parameters
 if (NOT outdir)
-  message(FATAL_ERROR "please -Doutdir.")
+  MESSAGE(STATUS "Using default outdir=${cwd}/debian_files")
+  SET(outdir "${cwd}/debian_files")
 endif (NOT outdir)
 
 if (NOT configdir)

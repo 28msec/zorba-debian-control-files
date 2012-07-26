@@ -12,7 +12,7 @@ SET(CONFIG_PACKAGE_VERSION "2.5.0")
 SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DZORBA_WITH_THESAURUS=ON")
 
 #Set the dependencies
-SET(CONFIG_SOURCE_DEPENDENCIES "libxml2-dev, libicu-dev, libxerces-c-dev (>=2.8.0), libcurl4-openssl-dev, openjdk-6-jdk, swig, doxygen")
+SET(CONFIG_SOURCE_DEPENDENCIES "libxml2-dev, libicu-dev, libxerces-c-dev (>=2.8.0), libcurl4-openssl-dev, openjdk-6-jdk, ruby-dev, python-dev, php5-dev, swig, doxygen")
 SET(CONFIG_BINARY_DEPENDENCIES "libxml2, libicu-dev, libxerces-c3.1, libcurl3")
 
 
