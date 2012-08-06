@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-oauth-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.5.0")
+SET(CONFIG_PACKAGE_VERSION "2.6.0")
 
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")

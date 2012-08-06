@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-http-client-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.5.0")
+SET(CONFIG_PACKAGE_VERSION "2.6.0")
 
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, zorba-html-module")
