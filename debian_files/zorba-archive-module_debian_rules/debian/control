@@ -1,0 +1,18 @@
+Source: zorba-archive-module
+Section: devel
+Priority: extra
+Maintainer: Juan Zacarias <juan457@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libarchive-dev
+Standards-Version: 3.9.1
+Homepage: http://www.zorba-xquery.com
+#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
+
+Package: zorba-archive-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libarchive12
+Description: a general purpose XQuery processor
+ This module provides functionality to work with (possibly compressed)
+ archives. For example, it provides functions to retrieve the names or
+ extract the values of several entries in a ZIP archive. Moreover,
+ there exists functions that allow to create or update archives.
