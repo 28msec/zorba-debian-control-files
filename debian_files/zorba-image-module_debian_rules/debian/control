@@ -2,7 +2,7 @@ Source: zorba-image-module
 Section: devel
 Priority: extra
 Maintainer: Juan Zacarias <juan457@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libmagick++-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libmagick++-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 #Vcs-Git: git://git.debian.org/collab-maint/zorba.git
@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-image-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libmagick++-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libmagick++-dev
 Description: a general purpose XQuery processor
  This module provides basic functions for handling images including:
  *animations of images.

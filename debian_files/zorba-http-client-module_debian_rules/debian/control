@@ -2,7 +2,7 @@ Source: zorba-http-client-module
 Section: devel
 Priority: extra
 Maintainer: Juan Zacarias <juan457@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, zorba-html-module
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, zorba-html-module
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 #Vcs-Git: git://git.debian.org/collab-maint/zorba.git
@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-http-client-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, zorba-html-module
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, zorba-html-module
 Description: a general purpose XQuery processor
  This module provides an implementation of the EXPath Http Client. It provides
  functions for making HTTP requests and is a superset of the module specified

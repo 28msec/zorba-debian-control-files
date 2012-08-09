@@ -2,7 +2,7 @@ Source: zorba-languages-module
 Section: devel
 Priority: extra
 Maintainer: Juan Zacarias <juan457@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libxslt-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libxslt-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 #Vcs-Git: git://git.debian.org/collab-maint/zorba.git
@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-languages-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libxslt-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libxslt-dev
 Description: a general purpose XQuery processor
  This module provides XSLT 1.0 transformation functionality.
  For details on XSLT see XSLT 1.0 specification.

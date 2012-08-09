@@ -7,7 +7,7 @@ SET(CONFIG_PACKAGE_VERSION "2.6.0")
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libarchive-dev")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings | zorba-with-language-bindings, libarchive-dev")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, libarchive12")
 
 #Uncomment and set name of the file to be set as the changelog,

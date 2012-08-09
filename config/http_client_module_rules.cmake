@@ -5,8 +5,8 @@ SET(CONFIG_PACKAGE_NAME "zorba-http-client-module")
 SET(CONFIG_PACKAGE_VERSION "2.6.0")
 
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, zorba-html-module")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, zorba-html-module")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module")
 
 SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DSUPPRESS_HTML_MODULE_FIND_PACKAGE=ON")
 

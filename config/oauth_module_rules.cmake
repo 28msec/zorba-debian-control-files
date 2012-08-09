@@ -7,8 +7,8 @@ SET(CONFIG_PACKAGE_VERSION "2.6.0")
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module")
 
 SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DSUPPRESS_HTML_FIND_PACKAGE=ON -DSUPPRESS_SECURITY_FIND_PACKAGE=ON")
 

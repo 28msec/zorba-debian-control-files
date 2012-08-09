@@ -2,7 +2,7 @@ Source: zorba-oauth-module
 Section: devel
 Priority: extra
 Maintainer: Juan Zacarias <juan457@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, zorba-html-module, zorba-security-module
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 #Vcs-Git: git://git.debian.org/collab-maint/zorba.git
@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-oauth-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, zorba-html-module, zorba-security-module
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module
 Description: a general purpose XQuery processor
  OAuth Client Module This module provides the functions necessary to acquire
  access to the personal resources of a user through the open standard called

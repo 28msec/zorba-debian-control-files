@@ -7,8 +7,8 @@ SET(CONFIG_PACKAGE_VERSION "2.6.0")
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "maverick" "lucid")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libxslt-dev")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, libxslt-dev")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libxslt-dev")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, libxslt-dev")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
