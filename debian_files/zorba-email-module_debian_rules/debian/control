@@ -10,6 +10,6 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-email-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libicu42
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libicu42 | libicu48
 Description: a general purpose XQuery processor
  Modules provides functions to execute email commands
