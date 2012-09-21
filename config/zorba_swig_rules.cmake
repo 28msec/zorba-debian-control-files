@@ -9,7 +9,7 @@ SET(CONFIG_PACKAGE_VERSION "2.6.0")
 #SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) -C builddir doc
 #	$(MAKE) -C builddir xqjdocs")
 
-SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DZORBA_WITH_THESAURUS=ON")
+SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DZORBA_WITH_THESAURUS=ON -DPHP5_EXECUTABLE=/usr/bin/php5")
 
 #Set the dependencies
 SET(CONFIG_SOURCE_DEPENDENCIES "libxml2-dev, libicu-dev, libxerces-c-dev (>=2.8.0), libcurl4-openssl-dev, openjdk-6-jdk, ruby-dev, python-dev, php5-dev, php5, swig, doxygen, uuid-dev")
