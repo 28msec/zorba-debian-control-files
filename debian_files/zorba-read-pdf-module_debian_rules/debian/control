@@ -2,7 +2,7 @@ Source: zorba-read-pdf-module
 Section: devel
 Priority: extra
 Maintainer: Juan Zacarias <juan457@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-login-java
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 #Vcs-Git: git://git.debian.org/collab-maint/zorba.git
@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-read-pdf-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-login-java
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java
 Description: a general purpose XQuery processor
  Zorba is a general purpose XQuery processor implementing in C++ the W3C family
  of specifications. It is not an XML database. The query processor has been
