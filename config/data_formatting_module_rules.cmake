@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-data-formatting-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.6.0")
+SET(CONFIG_PACKAGE_VERSION "2.7.0")
 
 SET(CONFIG_DISTRO_SERIES "oneiric" "natty" "maverick" "lucid")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
