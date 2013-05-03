@@ -10,6 +10,7 @@ SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, openjdk-6-
 SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, openjdk-6-jdk")
 
 SET(CONFIG_CMAKE_RPATH_OFF ON)
+SET(CONFIG_CMAKE_INSTALL_RPATH_OFF ON)
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
