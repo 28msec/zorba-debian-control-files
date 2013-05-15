@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-archive-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.8.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.0")
 
 SET(CONFIG_DISTRO_SERIES "precise")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")

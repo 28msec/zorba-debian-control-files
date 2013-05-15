@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-security-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.8.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.0")
 
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libssl-dev")

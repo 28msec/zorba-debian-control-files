@@ -3,7 +3,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-with-language-bindings")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.8.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.0")
 
 #set make doc command for install
 #SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) -C builddir doc
