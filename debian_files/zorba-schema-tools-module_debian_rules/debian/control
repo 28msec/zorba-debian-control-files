@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-schema-tools-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module, xmlbeans
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, default-jre | java6-runtime | java7-runtime, zorba-util-jvm-module, xmlbeans
 Description: a general purpose XQuery processor
  Zorba is a general purpose XQuery processor implementing in C++ the W3C family
  of specifications. It is not an XML database. The query processor has been

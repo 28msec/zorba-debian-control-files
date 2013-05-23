@@ -10,7 +10,7 @@ Homepage: http://www.zorba-xquery.com
 
 Package: zorba-data-formatting-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, openjdk-6-jdk, fop, zorba-util-jvm-module
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, default-jre | java6-runtime | java7-runtime, fop, zorba-util-jvm-module
 Description: a general purpose XQuery processor
  This module uses Apache-FOP to generate content from a xsl-fo. Apache-FOP
  supports several output formats. See the Apache FOP documentation for further
