@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-util-jvm-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.9.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.1")
 
 SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "maverick" "lucid")
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")

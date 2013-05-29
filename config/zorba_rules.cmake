@@ -3,7 +3,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.9.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.1")
 
 #set make doc command for install
 #SET(CONFIG_EXTRA_INSTALL_COMMANDS "$(MAKE) -C builddir doc

@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-xqxq-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.9.0")
+SET(CONFIG_PACKAGE_VERSION "2.9.1")
 
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
