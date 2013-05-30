@@ -1,0 +1,89 @@
+This package was debianized by Juan Zacarias <juan457@gmail.com> on
+Wed, 29 May 2013 08:06:37 -0700
+
+
+It was downloaded from http://www.zorba-xquery.com
+
+Zorba is a joint effort between multiple authors and organizations.
+
+The primary authors are:
+
+  * Cezar Andrei
+  * Vinayak Borkar
+  * Matthias Brantner
+  * Nicolae Brinza
+  * William Candillon
+  * Dana Florescu
+  * David Graf
+  * Chris Hillery
+  * Donald Kossmann 
+  * Tim Kraska
+  * Paul Kunz
+  * Carlos Lopez
+  * Paul Lucas
+  * Dan Muresan
+  * Sorin Nasoi
+  * Rodolfo Ochoa
+  * Paul Pedersen
+  * Gabriel Petrovay
+  * Markus Pilman
+  * Sam Rehman
+  * Luis Rodriguez
+  * Daniel Thomas
+  * Daniel Turcanu
+  * Till Westmann
+  * Juan Zacarias
+  * Markos Zaharioudakis
+
+Copyright:
+
+    Copyright (C) 2008 - 2011 Cezar Andrei
+    Copyright (C) 2008 - 2010 Vinayak Borkar
+    Copyright (C) 2008 - 2011 Matthias Brantner
+    Copyright (C) 2008 - 2011 Nicolae Brinza
+    Copyright (C) 2008 - 2011 William Candillon
+    Copyright (C) 2008 - 2011 Dana Florescu
+    Copyright (C) 2008 - 2011 David Graf
+    Copyright (C) 2008 - 2011 Dennis Knochenwefel
+    Copyright (C) 2008 - 2011 Donald Kossmann
+    Copyright (C) 2009 - 2011 Paul Kunz
+    Copyright (C) 2008 - 2010 Tim Kraska
+    Copyright (C) 2008 - 2009 Dan Muresan
+    Copyright (C) 2008 - 2011 Sorin Nasoi
+    Copyright (C) 2008 - 2011Paul Pedersen
+    Copyright (C) 2008 - 2011 Gabriel Petrovay
+    Copyright (C) 2008 Sam Rehman
+    Copyright (C) 2008 - 2011 Daniel Turcanu
+    Copyright (C) 2008 - 2011 Markos Zaharioudakis
+    Copyright (C) 2008 - 2011 Chris Hillery
+    Copyright (C) 2011 Juan Zacarias
+    Copyright (C) 2011 Rodolfo Ochoa
+    Copyright (C) 2011 Luis Rodriguez
+    Copyright (C) 2011 Carlos Lopez
+
+License:
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+On Debian systems, the complete text of the Apache version 2.0 license
+can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+The Debian packaging is:
+
+    Copyright (C) 2011 Juan Zacarias <juan457@gmail.com>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
