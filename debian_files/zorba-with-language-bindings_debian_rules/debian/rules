@@ -13,7 +13,7 @@ builddir/Makefile:
 	dh_testdir
 	# Add here commands to configure the package.
 	mkdir -p builddir
-	cd builddir && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_C_FLAGS="$(CFLAGS)" -DCMAKE_LD_FLAGS="-Wl,-z,defs" -DCMAKE_CXX_FLAGS="$(CXXFLAGS)" -DCMAKE_SKIP_RPATH=ON -DCMAKE_VERBOSE_MAKEFILE=ON -DZORBA_WITH_THESAURUS=ON -DPHP5_EXECUTABLE=/usr/bin/php5
+	cd builddir && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_C_FLAGS="$(CFLAGS)" -DCMAKE_LD_FLAGS="-Wl,-z,defs" -DCMAKE_CXX_FLAGS="$(CXXFLAGS)" -DCMAKE_SKIP_RPATH=ON -DCMAKE_VERBOSE_MAKEFILE=ON -DZORBA_WITH_THESAURUS=ON -DPHP5_EXECUTABLE=/usr/bin/php5 -DRUBY_EXECUTABLE=/usr/bin/ruby -DRUBY_INCLUDE_DIR=/usr/include/ruby-1.9.1 -DRUBY_LIBRARY=/usr/lib/libruby-1.9.1.so -DRUBY_CONFIG_INCLUDE_DIR='/usr/include/ruby-1.9.1/i686-linux/ruby:/usr/include/ruby-1.9.1/x86_64-linux/ruby' 
 
 
 build: build-stamp
