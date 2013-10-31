@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-geoproj-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "2.9.1")
+SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings")
