@@ -5,7 +5,7 @@ SET(CONFIG_PACKAGE_NAME "zorba-oracle-nosql-module")
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-6-jdk")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-8-jdk | openjdk-7-jdk")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, default-jre | java6-runtime | java7-runtime | java8-runtime")
 
 #Uncomment and set name of the file to be set as the changelog,

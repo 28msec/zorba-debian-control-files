@@ -2,12 +2,12 @@ Source: zorba-security-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libssl-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libssl-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
 
 Package: zorba-security-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libssl-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libssl-dev
 Description: a general purpose XQuery processor
  Module that implements security functions in zorba

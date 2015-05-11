@@ -5,7 +5,7 @@ SET(CONFIG_PACKAGE_NAME "zorba-jdbc-module")
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-6-jdk, zorba-util-jvm-module")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-8-jdk | openjdk-7-jdk, zorba-util-jvm-module")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, default-jre | java6-runtime | java7-runtime | java8-runtime, zorba-util-jvm-module")
 
 #Uncomment and set name of the file to be set as the changelog,
