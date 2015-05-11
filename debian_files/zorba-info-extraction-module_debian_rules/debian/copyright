@@ -1,8 +1,8 @@
-This package was debianized by Juan Zacarias <juan457@gmail.com> on
-Mon, 11 May 2015 06:47:32 +0300
+This package was debianized by Federico Cavalieri <f@28.io> on
+Mon, 11 May 2015 21:21:28 +0300
 
 
-It was downloaded from http://www.zorba-xquery.com
+It was downloaded from http://zorba.28.io
 
 Zorba is a joint effort between multiple authors and organizations.
 
@@ -87,7 +87,7 @@ can be found in `/usr/share/common-licenses/Apache-2.0'.
 
 The Debian packaging is:
 
-    Copyright (C) 2015 Juan Zacarias <juan457@gmail.com>
+    Copyright (C) 2015 Federico Cavalieri <f@28.io>
 
 and is licensed under the GPL version 3, 
 see `/usr/share/common-licenses/GPL-3'.

@@ -4,11 +4,9 @@ SET(CONFIG_PACKAGE_NAME "zorba-oauth-module")
 #If left commented uses zorba version
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
-SET(CONFIG_DISTRO_SERIES "precise")
-#SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, zorba-html-module, zorba-security-module")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, zorba-html-module, zorba-security-module")
 
 SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DSUPPRESS_HTML_MODULE_FIND_PACKAGE=ON -DSUPPRESS_SECURITY_MODULE_FIND_PACKAGE=ON")
 

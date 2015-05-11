@@ -2,14 +2,12 @@ Source: zorba-email-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libc-client2007e-dev (>=8:2007e-1~dfsg-3.1ubuntu1zorba2), libssl-dev, libpam-krb5, libkrb5-dev, libgssapi-krb5-2, libpam-krb5, libpam-modules, libpam0g-dev, libicu-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libc-client2007e-dev (>=8:2007e-1~dfsg-3.1ubuntu1zorba2), libssl-dev, libpam-krb5, libkrb5-dev, libgssapi-krb5-2, libpam-krb5, libpam-modules, libpam0g-dev, libicu-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-email-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libicu42 | libicu48
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libicu42 | libicu48
 Description: a general purpose XQuery processor
  Modules provides functions to execute email commands

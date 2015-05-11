@@ -5,8 +5,8 @@ SET(CONFIG_PACKAGE_NAME "zorba-sqlite-module")
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libsqlite3-dev, sqlite3")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, sqlite3")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libsqlite3-dev, sqlite3")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, sqlite3")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.

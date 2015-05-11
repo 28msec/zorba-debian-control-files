@@ -4,11 +4,9 @@ SET(CONFIG_PACKAGE_NAME "zorba-geo-module")
 #If left commented uses zorba version
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
-SET(CONFIG_DISTRO_SERIES "precise")
-#SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libgeos-dev (>=3.3.0), libgeos++-dev")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, libgeos-dev (>=3.3.0), libgeos++-dev")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libgeos-dev (>=3.3.0), libgeos++-dev")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, libgeos-dev (>=3.3.0), libgeos++-dev")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.

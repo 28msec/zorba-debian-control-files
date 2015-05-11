@@ -5,8 +5,8 @@ SET(CONFIG_PACKAGE_NAME "zorba-data-cleaning-module")
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.

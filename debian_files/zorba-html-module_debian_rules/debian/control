@@ -2,15 +2,13 @@ Source: zorba-html-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libtidy-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libtidy-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-html-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, libtidy-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libtidy-dev
 Description: a general purpose XQuery processor
  This module provides functions to tidy a HTML document.
  The functions in this module take an HTML document (a string) as parameter,

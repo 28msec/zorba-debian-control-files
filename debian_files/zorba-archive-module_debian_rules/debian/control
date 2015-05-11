@@ -2,11 +2,9 @@ Source: zorba-archive-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings | zorba-with-language-bindings, libarchive-dev
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libarchive-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-archive-module
 Architecture: any

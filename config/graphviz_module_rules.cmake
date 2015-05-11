@@ -4,11 +4,9 @@ SET(CONFIG_PACKAGE_NAME "zorba-graphviz-module")
 #If left commented uses zorba version
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
-SET(CONFIG_DISTRO_SERIES "precise")
-#SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libgraphviz-dev")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, graphviz")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libgraphviz-dev")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, graphviz")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.

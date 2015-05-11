@@ -2,15 +2,13 @@ Source: zorba-system-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-system-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba
 Description: a general purpose XQuery processor
  The system module allows users to access information of the operating system
  and the XQuery processor. The properties which are accessible are all

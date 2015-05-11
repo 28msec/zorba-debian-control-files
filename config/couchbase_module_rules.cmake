@@ -5,7 +5,7 @@ SET(CONFIG_PACKAGE_NAME "zorba-couchbase-module")
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings | zorba-with-language-bindings, libcouchbase-dev")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libcouchbase-dev")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba, libcouchbase-dev")
 
 #Uncomment and set name of the file to be set as the changelog,

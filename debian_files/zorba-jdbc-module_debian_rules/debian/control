@@ -2,14 +2,12 @@ Source: zorba-jdbc-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, openjdk-6-jdk, zorba-util-jvm-module
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, openjdk-6-jdk, zorba-util-jvm-module
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-jdbc-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings, default-jre | java6-runtime | java7-runtime, zorba-util-jvm-module
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, default-jre | java6-runtime | java7-runtime | java8-runtime, zorba-util-jvm-module
 Description: a general purpose XQuery processor
  Module for working with a jdbc database.

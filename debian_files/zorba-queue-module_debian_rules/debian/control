@@ -2,15 +2,13 @@ Source: zorba-queue-module
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
-#Vcs-Git: git://git.debian.org/collab-maint/zorba.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/zorba.git;a=summary
 
 Package: zorba-queue-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba | zorba-with-language-bindings
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba
 Description: a general purpose XQuery processor
  Zorba is a general purpose XQuery processor implementing in C++ the W3C family
  of specifications. It is not an XML database. The query processor has been
