@@ -1,7 +1,7 @@
 Source: zorba-email-module
 Section: devel
 Priority: extra
-Maintainer: Juan Zacarias <juan457@gmail.com>
+Maintainer: Federico Cavalieri <f@28.io>
 Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libc-client2007e-dev (>=8:2007e-1~dfsg-3.1ubuntu1zorba2), libssl-dev, libpam-krb5, libkrb5-dev, libgssapi-krb5-2, libpam-krb5, libpam-modules, libpam0g-dev, libicu-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com

@@ -6,7 +6,7 @@ SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
-SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
+SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libgraphviz-dev")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, graphviz")
 

@@ -1,4 +1,5 @@
 This package was debianized by Juan Zacarias <juan457@gmail.com> on
+Mon, 11 May 2015 06:47:32 +0300
 
 
 It was downloaded from http://www.zorba-xquery.com
@@ -12,9 +13,11 @@ The primary authors are:
   * Matthias Brantner
   * Nicolae Brinza
   * William Candillon
+  * Federico Cavalieri
   * Dana Florescu
   * David Graf
   * Chris Hillery
+  * Dennis Knochenwefel
   * Donald Kossmann 
   * Tim Kraska
   * Paul Kunz
@@ -36,29 +39,34 @@ The primary authors are:
 
 Copyright:
 
-    Copyright (C) 2008 - 2011 Cezar Andrei
-    Copyright (C) 2008 - 2010 Vinayak Borkar
-    Copyright (C) 2008 - 2011 Matthias Brantner
-    Copyright (C) 2008 - 2011 Nicolae Brinza
-    Copyright (C) 2008 - 2011 William Candillon
-    Copyright (C) 2008 - 2011 Dana Florescu
-    Copyright (C) 2008 - 2011 David Graf
-    Copyright (C) 2008 - 2011 Dennis Knochenwefel
-    Copyright (C) 2008 - 2011 Donald Kossmann
-    Copyright (C) 2009 - 2011 Paul Kunz
-    Copyright (C) 2008 - 2010 Tim Kraska
-    Copyright (C) 2008 - 2009 Dan Muresan
-    Copyright (C) 2008 - 2011 Sorin Nasoi
-    Copyright (C) 2008 - 2011Paul Pedersen
-    Copyright (C) 2008 - 2011 Gabriel Petrovay
-    Copyright (C) 2008 Sam Rehman
-    Copyright (C) 2008 - 2011 Daniel Turcanu
-    Copyright (C) 2008 - 2011 Markos Zaharioudakis
-    Copyright (C) 2008 - 2011 Chris Hillery
-    Copyright (C) 2011 Juan Zacarias
-    Copyright (C) 2011 Rodolfo Ochoa
-    Copyright (C) 2011 Luis Rodriguez
-    Copyright (C) 2011 Carlos Lopez
+    Copyright (C) Cezar Andrei
+    Copyright (C) Vinayak Borkar
+    Copyright (C) Matthias Brantner
+    Copyright (C) Nicolae Brinza
+    Copyright (C) William Candillon
+    Copyright (C) Federico Cavalieri
+    Copyright (C) Dana Florescu
+    Copyright (C) David Graf
+    Copyright (C) Chris Hillery
+    Copyright (C) Dennis Knochenwefel
+    Copyright (C) Donald Kossmann
+    Copyright (C) Tim Kraska
+    Copyright (C) Paul Kunz
+    Copyright (C) Carlos Lopez
+    Copyright (C) Paul Lucas
+    Copyright (C) Dan Muresan
+    Copyright (C) Sorin Nasoi
+    Copyright (C) Rodolfo Ochoa
+    Copyright (C) Paul Pedersen
+    Copyright (C) Gabriel Petrovay
+    Copyright (C) Markus Pilman
+    Copyright (C) Sam Rehman
+    Copyright (C) Luis Rodriguez
+    Copyright (C) Daniel Thomas
+    Copyright (C) Daniel Turcanu
+    Copyright (C) Till Westmann
+    Copyright (C) Juan Zacarias
+    Copyright (C) Markos Zaharioudakis    
 
 License:
 
@@ -79,7 +87,7 @@ can be found in `/usr/share/common-licenses/Apache-2.0'.
 
 The Debian packaging is:
 
-    Copyright (C) 2011 Juan Zacarias <juan457@gmail.com>
+    Copyright (C) 2015 Juan Zacarias <juan457@gmail.com>
 
 and is licensed under the GPL version 3, 
 see `/usr/share/common-licenses/GPL-3'.

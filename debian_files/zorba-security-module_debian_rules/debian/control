@@ -1,7 +1,7 @@
 Source: zorba-security-module
 Section: devel
 Priority: extra
-Maintainer: Juan Zacarias <juan457@gmail.com>
+Maintainer: Federico Cavalieri <f@28.io>
 Build-Depends: debhelper (>= 7.0.50~), cmake, zorba | zorba-with-language-bindings, libssl-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com

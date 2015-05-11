@@ -4,7 +4,7 @@ SET(CONFIG_PACKAGE_NAME "zorba-sqlite-module")
 #If left commented uses zorba version
 SET(CONFIG_PACKAGE_VERSION "3.0")
 
-SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
+SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libsqlite3-dev, sqlite3")
 SET(CONFIG_BINARY_DEPENDENCIES "zorba | zorba-with-language-bindings, sqlite3")
 

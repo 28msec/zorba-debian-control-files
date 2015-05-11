@@ -7,7 +7,7 @@ SET(CONFIG_PACKAGE_VERSION "3.0")
 
 SET(CONFIG_DISTRO_SERIES "precise")
 #SET(CONFIG_DISTRO_SERIES "precise" "oneiric" "natty" "lucid" "maverick")
-SET(CONFIG_CONTACT "Juan Zacarias <juan457@gmail.com>")
+SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba | zorba-with-language-bindings, libc-client2007e-dev (>=8:2007e-1~dfsg-3.1ubuntu1zorba2), libssl-dev, libpam-krb5, libkrb5-dev, libgssapi-krb5-2, libpam-krb5, libpam-modules, libpam0g-dev, libicu-dev")
 SET(CONFIG_BINARY_DEPENDENCIES_natty "zorba, libicu44")
 SET(CONFIG_BIANRY_DEPENDENCIES_oneiric "zorba, libicu44")

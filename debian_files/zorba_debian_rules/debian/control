@@ -1,7 +1,7 @@
 Source: zorba
 Section: devel
 Priority: extra
-Maintainer: The FLWOR Fundation <info@flworfound.org>
+Maintainer: Federico Cavalieri <f@28.io>
 Build-Depends: debhelper (>= 7.0.50~), cmake, libxml2-dev, libicu-dev, libxerces-c-dev (>=2.8.0), libcurl4-openssl-dev, openjdk-6-jdk, doxygen, uuid-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zorba-xquery.com
