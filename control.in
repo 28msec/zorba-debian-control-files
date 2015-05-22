@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: @PACKAGE_CONTACT@
 Build-Depends: debhelper (>= 7.0.50~), cmake@PACKAGE_SOURCE_DEPENDENCIES@
 Standards-Version: 3.9.1
-Homepage: http://www.zorba-xquery.com
+Homepage: http://zorba.28.io
 
 Package: @PACKAGE_NAME@
 Architecture: any

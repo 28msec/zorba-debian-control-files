@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
 Build-Depends: debhelper (>= 7.0.50~), cmake, zorba
 Standards-Version: 3.9.1
-Homepage: http://www.zorba-xquery.com
+Homepage: http://zorba.28.io
 
 Package: zorba-geoproj-module
 Architecture: any
