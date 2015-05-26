@@ -1,5 +1,6 @@
 #If this is left commented uses as default the name of the project 
 SET(CONFIG_PACKAGE_NAME "zorba-schema-tools-module")
+SET(CONFIG_FOLDER_NAME "zorba-schema-tools-module_precise-trusty")
 
 #If left commented uses zorba version
 SET(CONFIG_PACKAGE_VERSION "3.1")
