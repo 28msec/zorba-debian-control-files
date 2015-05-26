@@ -5,8 +5,8 @@ SET(CONFIG_PACKAGE_NAME "zorba-read-pdf-module")
 SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-8-jdk | openjdk-7-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, default-jre | java6-runtime | java7-runtime | java8-runtime, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-7-jdk, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, java7-runtime, zorba-util-jvm-module, libpdfbox-java, libfontbox-java, libjempbox-java, libcommons-logging-java")
 
 SET(CONFIG_CMAKE_EXTRA_PARAMETERS "-DPDFBOX_JAR=/usr/share/java/pdfbox.jar -DFONTBOX_JAR=/usr/share/java/fontbox.jar -DJEMPBOX_JAR=/usr/share/java/jempbox.jar -DCOMMLOG_JAR=/usr/share/java/commons-logging.jar")
 
