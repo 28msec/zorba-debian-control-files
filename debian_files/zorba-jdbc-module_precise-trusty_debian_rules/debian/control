@@ -1,0 +1,13 @@
+Source: zorba-jdbc-module
+Section: devel
+Priority: extra
+Maintainer: Federico Cavalieri <f@28.io>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, openjdk-7-jdk, zorba-util-jvm-module
+Standards-Version: 3.9.1
+Homepage: http://zorba.28.io
+
+Package: zorba-jdbc-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, java7-runtime, zorba-util-jvm-module
+Description: a general purpose XQuery processor
+ Module for working with a jdbc database.
