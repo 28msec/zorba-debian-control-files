@@ -3,7 +3,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-email-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "3.0")
+SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libc-client2007e-dev (= 8:2007e-1~dfsg-3.2ubuntu1zorba2) | libc-client2007e-dev (= 8:2007f-1~dfsg-2zorba1) | libc-client2007e-dev (= 8:2007f-1~dfsg-2zorba2) | libc-client2007e-dev (= 8:2007f-1~dfsg-4zorba1), libssl-dev, libpam-krb5, libkrb5-dev, libgssapi-krb5-2, libpam-krb5, libpam-modules, libpam0g-dev, libicu-dev")

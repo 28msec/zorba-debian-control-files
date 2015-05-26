@@ -2,7 +2,7 @@
 SET(CONFIG_PACKAGE_NAME "zorba-schema-tools-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "3.0")
+SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-8-jdk | openjdk-7-jdk, zorba-util-jvm-module, xmlbeans")

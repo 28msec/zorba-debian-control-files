@@ -45,6 +45,13 @@ ELSE(CONFIG_PACKAGE_NAME)
   MESSAGE(FATAL_ERROR "Rules described in file:${CONFIG_FILE} miss a package name. Please set CONFIG_PACKAGE_NAME.")
 ENDIF(CONFIG_PACKAGE_NAME)
 
+IF(CONFIG_FOLDER_NAME)
+  SET(FOLDER_NAME ${CONFIG_FOLDER_NAME})
+  UNSET(CONFIG_FOLDER_NAME)
+ELSE(CONFIG_FOLDER_NAME)
+  SET(FOLDER_NAME ${PACKAGE_NAME})
+ENDIF(CONFIG_FOLDER_NAME)
+
 MESSAGE(STATUS "Generating ${PACKAGE_NAME}'s debian files")
 
 #set package version
@@ -56,7 +63,7 @@ ELSE(CONFIG_PACKAGE_VERSION)
 ENDIF(CONFIG_PACKAGE_VERSION)
 
 #set output directory for set of rules
-SET(RULES_DIR "${outdir}/${PACKAGE_NAME}_debian_rules/debian")
+SET(RULES_DIR "${outdir}/${FOLDER_NAME}_debian_rules/debian")
 
 #set contact information
 IF(CONFIG_CONTACT)

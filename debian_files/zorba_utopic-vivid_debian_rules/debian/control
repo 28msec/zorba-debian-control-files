@@ -1,14 +1,14 @@
-Source: zorba-oracle-nosql-module
+Source: zorba
 Section: devel
 Priority: extra
 Maintainer: Federico Cavalieri <f@28.io>
-Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, openjdk-8-jdk | openjdk-7-jdk
+Build-Depends: debhelper (>= 7.0.50~), cmake, libxml2-dev, libicu-dev, libxerces-c-dev, libcurl4-openssl-dev, openjdk-8-jdk, doxygen, uuid-dev
 Standards-Version: 3.9.1
 Homepage: http://zorba.28.io
 
-Package: zorba-oracle-nosql-module
+Package: zorba
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, default-jre | java6-runtime | java7-runtime | java8-runtime
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxml2, libicu-dev, libxerces-c3.1, libcurl3
 Description: a general purpose XQuery processor
  Zorba is a general purpose XQuery processor implementing in C++ the W3C family
  of specifications. It is not an XML database. The query processor has been

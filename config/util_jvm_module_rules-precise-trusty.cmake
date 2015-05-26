@@ -2,11 +2,11 @@
 SET(CONFIG_PACKAGE_NAME "zorba-util-jvm-module")
 
 #If left commented uses zorba version
-SET(CONFIG_PACKAGE_VERSION "3.0")
+SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-8-jdk | openjdk-7-jdk")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, default-jre | java6-runtime | java7-runtime | java8-runtime")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, openjdk-7-jdk")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, java7-runtime")
 
 SET(CONFIG_CMAKE_RPATH_OFF ON)
 
