@@ -1,0 +1,21 @@
+Source: zorba-geo-module
+Section: devel
+Priority: extra
+Maintainer: Federico Cavalieri <f@28.io>
+Build-Depends: debhelper (>= 7.0.50~), cmake, zorba, libgeos-dev
+Standards-Version: 3.9.1
+Homepage: http://zorba.28.io
+
+Package: zorba-geo-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libgeos-dev
+Description: a general purpose XQuery processor
+ Function library providing geo processing using Simple Features api API 
+ GMLSF   format. 
+ It uses the GEOS third party library, license LGPL. Version 3.2.2 or 
+ above is   required.
+ .
+ The data format supported is GML SF profile 0/1.
+ This is a subset of GML, and covers the basic geometries of Point, Line 
+ and Surface  and collections of those.
+ GMLSF nodes have the namespace 'http://www.opengis.net/gml'.
