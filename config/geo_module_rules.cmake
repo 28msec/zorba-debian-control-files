@@ -5,8 +5,8 @@ SET(CONFIG_PACKAGE_NAME "zorba-geo-module")
 SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
-SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libgeos-dev (>=3.3.0), libgeos++-dev")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, libgeos-dev (>=3.3.0), libgeos++-dev")
+SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libgeos-dev, libgeos++-dev")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, libgeos-dev, libgeos++-dev")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
