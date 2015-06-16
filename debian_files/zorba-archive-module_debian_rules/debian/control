@@ -8,7 +8,7 @@ Homepage: http://zorba.28.io
 
 Package: zorba-archive-module
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libarchive12
+Depends: ${shlibs:Depends}, ${misc:Depends}, zorba, libarchive-dev
 Description: a general purpose XQuery processor
  This module provides functionality to work with (possibly compressed)
  archives. For example, it provides functions to retrieve the names or
