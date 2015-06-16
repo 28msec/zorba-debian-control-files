@@ -6,7 +6,7 @@ SET(CONFIG_PACKAGE_VERSION "3.1")
 
 SET(CONFIG_CONTACT "Federico Cavalieri <f@28.io>")
 SET(CONFIG_SOURCE_DEPENDENCIES "zorba, libarchive-dev")
-SET(CONFIG_BINARY_DEPENDENCIES "zorba, libarchive12")
+SET(CONFIG_BINARY_DEPENDENCIES "zorba, libarchive-dev")
 
 #Uncomment and set name of the file to be set as the changelog,
 #if not set default template will be used.
